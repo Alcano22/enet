@@ -1,4 +1,4 @@
-project "Enet"
+project "enet"
     kind "StaticLib"
     language "C"
     staticruntime "off"
@@ -9,7 +9,7 @@ project "Enet"
     files
     {
         "include/**.h",
-        "src/**.c"
+        "**.c"
     }
 
     includedirs
